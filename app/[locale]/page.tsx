@@ -157,7 +157,7 @@ export default async function LandingPage({
           <p className="text-sm text-slate-600">{tBlog('empty')}</p>
         )}
         <div className="mt-8">
-          <CTAButton href={`/${locale}/blog`} variant="ghost">
+          <CTAButton href={`/${locale}/guides`} variant="ghost">
             {messages.common.viewAll ?? 'View all'}
           </CTAButton>
         </div>
