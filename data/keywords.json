@@ -48,5 +48,55 @@
       "Infrastructure announcements boosting investor confidence"
     ],
     "keywords": ["bang rak marina", "koh samui land banking", "waterfront development thailand"]
+  },
+  {
+    "primary": "seaview condominium launches",
+    "context": "Mid-rise condo projects along Chaweng and Choeng Mon hills are blending hotel services with flexible ownership structures.",
+    "signals": [
+      "New EIA approvals for hillside condominium plots",
+      "Bangkok developers announcing branded residences partnerships",
+      "Mortgage lenders offering hybrid leasehold financing products"
+    ],
+    "keywords": ["koh samui condo", "seaview condominium samui", "branded residences thailand"]
+  },
+  {
+    "primary": "co-managed rental portfolios",
+    "context": "Villa owners are outsourcing revenue management to boutique operators to capture the post-pandemic tourism rebound.",
+    "signals": [
+      "OTA data showing ADR growth on multi-bedroom inventory",
+      "Hospitality tech firms onboarding Koh Samui properties",
+      "Local operators hiring revenue managers fluent in French and Mandarin"
+    ],
+    "keywords": ["villa revenue management", "koh samui rental management", "airbnb villa thailand"]
+  },
+  {
+    "primary": "thai elite visa relocation",
+    "context": "High-net-worth Europeans are using Elite Visa programs to base themselves in Koh Samui for part of the year.",
+    "signals": [
+      "Elite Visa application numbers surging for the Samui immigration office",
+      "International schools expanding capacity in Lamai and Bophut",
+      "Private healthcare clinics adding concierge relocation packages"
+    ],
+    "keywords": ["thai elite visa samui", "relocation koh samui", "expat property thailand"]
+  },
+  {
+    "primary": "wellness-branded villa clusters",
+    "context": "Developers are integrating biohacking amenities and longevity clinics into new villa estates to stand out.",
+    "signals": [
+      "Longevity brands announcing partnerships with Samui developers",
+      "Search interest rising for detox and biohacking retreats",
+      "Wellness influencers promoting villa estates with saunas and cold plunge setups"
+    ],
+    "keywords": ["wellness villa koh samui", "biohacking retreat thailand", "longevity real estate"]
+  },
+  {
+    "primary": "greenfield boutique resorts",
+    "context": "Investors are converting rubber plantations and old coconut farms into low-density eco boutique resorts.",
+    "signals": [
+      "Coconut land prices increasing in south coast tambons",
+      "Community meetings approving low impact resort masterplans",
+      "Tour operators adding eco-resort product to German and Scandinavian catalogs"
+    ],
+    "keywords": ["eco resort koh samui", "coconut farm land sale", "green boutique hotel thailand"]
   }
 ]

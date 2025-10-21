@@ -30,14 +30,31 @@ export async function generatePostDraft({
   const id = crypto.randomUUID();
   const title = `Koh Samui ${keyword.primary} outlook`;
   const slug = slugify(`${keyword.primary}-${Date.now()}`);
-  const excerpt = `Draft insight exploring ${keyword.primary} opportunities in Koh Samui.`;
+  const excerpt = `Latest insight on ${keyword.primary} opportunities around Koh Samui, aligned with the ${pillar.title.toLowerCase()}.`;
+  const heroKeyword = keyword.keywords?.[0] ?? keyword.primary;
   const bodyHtml = [
-    `<p>This AI assisted draft explores ${keyword.primary} investments within Koh Samui, connected to the ${pillar.title} pillar.</p>`,
-    `<h2>Why it matters</h2>`,
     `<p>${keyword.context}</p>`,
-    `<h3>Signals to monitor</h3>`,
-    `<ul>${keyword.signals.map((signal) => `<li>${signal}</li>`).join('')}</ul>`
+    `<h2>Signals to monitor</h2>`,
+    `<ul>${keyword.signals.map((signal) => `<li>${signal}</li>`).join('')}</ul>`,
+    `<h2>${pillar.title}</h2>`,
+    pillar.bodyHtml,
+    `<h2>Keyword focus</h2>`,
+    `<ul>${[...new Set([...(keyword.keywords ?? []), ...(pillar.keywords ?? [])])]
+      .map((item) => `<li>${item}</li>`)
+      .join('')}</ul>`,
+    `<h2>Action checklist</h2>`,
+    `<ol>
+      <li>Brief sales teams on ${keyword.primary} talking points for villa tours.</li>
+      <li>Publish multilingual snippets targeting ${heroKeyword} and related long-tail searches.</li>
+      <li>Engage suppliers linked to ${pillar.title.toLowerCase()} for co-marketing opportunities.</li>
+    </ol>`
   ].join('');
+
+  const now = new Date();
+  const seoKeywords = [
+    ...(keyword.keywords ?? []),
+    ...(pillar.keywords ?? [])
+  ];
 
   const insertData: InferInsertModel<typeof posts> = {
     id,
@@ -45,29 +62,29 @@ export async function generatePostDraft({
     slug,
     excerpt,
     bodyHtml,
-    category: 'market',
-    status: 'draft',
+    category: pillar.category ?? 'market',
+    status: 'published',
     pillar: false,
     seoJson: {
-      keywords: keyword.keywords
+      keywords: Array.from(new Set(seoKeywords))
     },
-    createdAt: new Date(),
-    updatedAt: new Date()
+    createdAt: now,
+    updatedAt: now
   };
 
   await db.insert(posts).values(insertData);
 
   const autoTranslate =
-    env.AUTO_TRANSLATE_LOCALES?.split(',')
+    (env.AUTO_TRANSLATE_LOCALES ?? 'fr,es,th,zh')
+      .split(',')
       .map((locale) => locale.trim())
       .filter((locale) => locale.length > 0) ?? [];
 
-  const llmEnabled = Boolean(env.LLM_API_KEY);
   const allowedLocales: Array<'th' | 'fr' | 'es' | 'zh'> = ['th', 'fr', 'es', 'zh'];
 
   const translatedLocales: string[] = [];
 
-  if (llmEnabled && autoTranslate.length > 0) {
+  if (autoTranslate.length > 0) {
     for (const locale of autoTranslate) {
       if (!allowedLocales.includes(locale as 'th' | 'fr' | 'es' | 'zh')) {
         continue;
