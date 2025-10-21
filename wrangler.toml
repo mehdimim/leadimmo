@@ -3,9 +3,6 @@ compatibility_date = "2025-10-01"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".vercel/output/static"
 
-[triggers]
-crons = ["0 3 * * *"]
-
 [[d1_databases]]
 binding = "DB"
 database_name = "samui"
