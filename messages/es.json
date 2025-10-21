@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "title": "LeadImmo | Invierte en Koh Samui",
+    "description": "Página de aterrizaje y blog asistido por IA para captar compradores cualificados en Koh Samui."
+  },
+  "navigation": {
+    "home": "Inicio",
+    "blog": "Análisis",
+    "guides": "Guías",
+    "admin": "Admin"
+  },
+  "languageSwitcher": {
+    "label": "Idioma",
+    "trigger": "Cambiar idioma",
+    "close": "Cerrar"
+  },
+  "hero": {
+    "eyebrow": "IA inmobiliaria + expertos locales",
+    "title": "Activa oportunidades inmobiliarias en Koh Samui",
+    "subtitle": "Búsqueda personalizada de propiedades, apoyo financiero y asesoría de reubicación respaldados por datos.",
+    "primaryCta": "Agenda tu llamada exploratoria",
+    "secondaryCta": "Descargar informe de inversión"
+  },
+  "leadForm": {
+    "title": "Cuéntanos tu proyecto",
+    "description": "Completa el formulario y nuestro asesor senior responderá en menos de 24 horas.",
+    "firstName": "Nombre",
+    "email": "Email (opcional)",
+    "phone": "Teléfono / WhatsApp",
+    "budget": "Presupuesto",
+    "propertyType": "Tipo de propiedad",
+    "areas": "Zonas preferidas",
+    "timing": "Plazo",
+    "callPreference": "Preferencia de contacto",
+    "timezone": "Zona horaria",
+    "message": "¿Algo más que debamos saber?",
+    "consent": "Acepto ser contactado/a y confirmo que he leído el aviso de privacidad.",
+    "submit": "Enviar mi brief",
+    "success": "¡Gracias! Hemos recibido tu solicitud."
+  },
+  "leadFormOptions": {
+    "budget": {
+      "under500k": "Menos de 500 k$",
+      "500kto1m": "500 k$ - 1 M$",
+      "1mto2m": "1 M$ - 2 M$",
+      "above2m": "Más de 2 M$"
+    },
+    "propertyType": {
+      "villa": "Villa",
+      "apartment": "Apartamento",
+      "hotel": "Hotel boutique",
+      "land": "Terreno"
+    },
+    "timing": {
+      "soon": "Quiero comprar en 0-3 meses",
+      "mid": "Planificación a 6 meses",
+      "later": "Explorando para más adelante"
+    },
+    "callPreference": {
+      "phone": "Llamada telefónica",
+      "video": "Videollamada",
+      "inPerson": "Reunión en Koh Samui"
+    }
+  },
+  "sections": {
+    "why": {
+      "title": "Por qué invertir en Koh Samui con LeadImmo",
+      "points": [
+        "Asesores en terreno con más de 15 años de experiencia en transacciones.",
+        "Modelos de mercado con IA para comparar rendimientos y potencial de reventa.",
+        "Red de socios verificados: legal, arquitectura y gestión de propiedades."
+      ]
+    },
+    "proof": {
+      "title": "Resultados en los que confían nuestros clientes",
+      "metrics": [
+        {
+          "label": "Compradores cualificados conectados con promotores en 2023",
+          "value": "142"
+        },
+        {
+          "label": "Ocupación media asegurada para villas gestionadas",
+          "value": "78%"
+        },
+        {
+          "label": "Tiempo hasta la primera oferta tras el mandato",
+          "value": "21 días"
+        }
+      ]
+    },
+    "guides": {
+      "title": "Mini guías: domina el mercado",
+      "cta": "Leer el artículo pilar"
+    }
+  },
+  "testimonials": {
+    "title": "Inversores que avanzan con confianza",
+    "items": [
+      {
+        "quote": "LeadImmo coordinó lo legal, la banca y la reforma de la villa para que pudiéramos enfocarnos en lanzar nuestra marca de alquiler.",
+        "author": "Marie y Thibault - De París a Samui"
+      },
+      {
+        "quote": "Su resumen semanal con IA comparó decenas de listados e identificó al instante la mejor rentabilidad.",
+        "author": "Jasmine K. - Singapur"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "question": "¿Ayudan a compradores extranjeros con la creación de empresas?",
+        "answer": "Sí, trabajamos con despachos de abogados verificados para estructurar la compra, incluida la constitución de sociedades tailandesas cuando es necesario."
+      },
+      {
+        "question": "¿Solo trabajan con villas de lujo?",
+        "answer": "Nuestros asesores cubren villas, hoteles boutique y suelo prime. Cuéntanos tu estrategia y asignamos al experto adecuado."
+      },
+      {
+        "question": "¿Cómo aporta el blog con IA a mi decisión?",
+        "answer": "Cada artículo combina datos de mercado en tiempo real, palabras clave seleccionadas y revisión humana para destapar rápidamente las mejores oportunidades."
+      }
+    ]
+  },
+  "contact": {
+    "call": "Llamar ahora",
+    "whatsapp": "Chatear por WhatsApp"
+  },
+  "thankYou": {
+    "title": "Gracias por tu confianza",
+    "subtitle": "Un asesor se pondrá en contacto contigo muy pronto. Mientras tanto, explora nuestros insights con IA."
+  },
+  "blog": {
+    "title": "Últimos insights impulsados por IA",
+    "draftBadge": "Borrador",
+    "publishedBadge": "Publicado",
+    "readMore": "Leer artículo",
+    "empty": "Aún no hay artículos. Vuelve pronto.",
+    "categoryPrefix": "Categoría"
+  },
+  "blogCategories": {
+    "investment": "Estrategia de inversión",
+    "lifestyle": "Estilo de vida",
+    "legal": "Legal y estructura",
+    "market": "Pulso del mercado"
+  },
+  "admin": {
+    "loginTitle": "Acceso administrador",
+    "username": "Usuario",
+    "password": "Contraseña",
+    "submit": "Iniciar sesión",
+    "postsTitle": "Gestionar artículos IA",
+    "status": "Estado",
+    "published": "Publicado",
+    "draft": "Borrador",
+    "publish": "Publicar",
+    "unpublish": "Retirar",
+    "delete": "Eliminar",
+    "translate": "Traducir",
+    "exportLeads": "Exportar leads (CSV)",
+    "logout": "Cerrar sesión",
+    "translationSuccess": "Traducción guardada.",
+    "translationStub": "LLM no configurado: se guardó el texto en inglés con nota de traducción.",
+    "error": "Ha ocurrido un error, inténtalo de nuevo."
+  },
+  "footer": {
+    "address": "Agencia Koh Samui (ejemplo), Ko Samui",
+    "phone": "+66-0000-0000",
+    "privacy": "Aviso de privacidad",
+    "terms": "Términos y condiciones"
+  },
+  "common": {
+    "optional": "Opcional",
+    "loading": "Cargando...",
+    "viewAll": "Ver todo",
+    "close": "Cerrar",
+    "back": "Volver"
+  }
+}

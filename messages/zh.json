@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "title": "LeadImmo | 投资苏梅岛",
+    "description": "登陆页与 AI 驱动的博客，帮助获取苏梅岛房地产的高意向买家线索。"
+  },
+  "navigation": {
+    "home": "首页",
+    "blog": "洞察",
+    "guides": "指南",
+    "admin": "后台"
+  },
+  "languageSwitcher": {
+    "label": "语言",
+    "trigger": "切换语言",
+    "close": "关闭"
+  },
+  "hero": {
+    "eyebrow": "房地产 AI + 本地专家",
+    "title": "解锁苏梅岛房地产机会",
+    "subtitle": "数据支撑的个性化选址、融资支持与落地建议。",
+    "primaryCta": "预约咨询电话",
+    "secondaryCta": "下载投资简报"
+  },
+  "leadForm": {
+    "title": "告诉我们您的计划",
+    "description": "填写表单，我们的资深顾问将在 24 小时内回复。",
+    "firstName": "姓名",
+    "email": "邮箱（选填）",
+    "phone": "电话 / WhatsApp",
+    "budget": "预算",
+    "propertyType": "物业类型",
+    "areas": "首选区域",
+    "timing": "时间规划",
+    "callPreference": "沟通方式偏好",
+    "timezone": "时区",
+    "message": "还有哪些信息需要了解？",
+    "consent": "我同意被联系，并确认已阅读隐私声明。",
+    "submit": "提交需求",
+    "success": "感谢信任！我们已收到您的请求。"
+  },
+  "leadFormOptions": {
+    "budget": {
+      "under500k": "低于 50 万美元",
+      "500kto1m": "50 万 - 100 万美元",
+      "1mto2m": "100 万 - 200 万美元",
+      "above2m": "高于 200 万美元"
+    },
+    "propertyType": {
+      "villa": "别墅",
+      "apartment": "公寓",
+      "hotel": "精品酒店",
+      "land": "土地"
+    },
+    "timing": {
+      "soon": "计划 0-3 个月内购置",
+      "mid": "计划 6 个月内购置",
+      "later": "长期评估阶段"
+    },
+    "callPreference": {
+      "phone": "电话沟通",
+      "video": "视频会议",
+      "inPerson": "苏梅岛线下面谈"
+    }
+  },
+  "sections": {
+    "why": {
+      "title": "为何选择 LeadImmo 投资苏梅岛",
+      "points": [
+        "驻地顾问拥有 15 年以上交易经验。",
+        "AI 市场模型评估租金收益与转售潜力。",
+        "严选合作伙伴网络：法律、设计及物业管理。"
+      ]
+    },
+    "proof": {
+      "title": "客户验证的成果",
+      "metrics": [
+        {
+          "label": "2023 年为开发商导入的合格买家",
+          "value": "142"
+        },
+        {
+          "label": "托管别墅实现的平均入住率",
+          "value": "78%"
+        },
+        {
+          "label": "获得首个报价的平均用时",
+          "value": "21 天"
+        }
+      ]
+    },
+    "guides": {
+      "title": "迷你指南：快速掌握市场",
+      "cta": "阅读核心文章"
+    }
+  },
+  "testimonials": {
+    "title": "让投资更安心",
+    "items": [
+      {
+        "quote": "LeadImmo 协调了法律、融资以及别墅翻修，让我们专注于打造租赁品牌。",
+        "author": "Marie 与 Thibault - 巴黎到苏梅岛"
+      },
+      {
+        "quote": "他们的每周 AI 摘要对比了数十个房源，瞬间锁定收益最佳的选择。",
+        "author": "Jasmine K. - 新加坡"
+      }
+    ]
+  },
+  "faq": {
+    "title": "常见问题",
+    "items": [
+      {
+        "question": "你们能协助外国买家设立公司吗？",
+        "answer": "可以，我们与可信赖的律师事务所合作，为您设计交易结构，包括必要时成立泰国公司。"
+      },
+      {
+        "question": "是否只服务豪华别墅？",
+        "answer": "我们的顾问覆盖别墅、精品酒店与核心地段土地。告诉我们您的策略，我们会匹配合适专家。"
+      },
+      {
+        "question": "AI 博客对决策有什么帮助？",
+        "answer": "每篇文章融合实时市场数据、精选关键词与人工审核，快速呈现最佳投资机会。"
+      }
+    ]
+  },
+  "contact": {
+    "call": "立即来电",
+    "whatsapp": "WhatsApp 咨询"
+  },
+  "thankYou": {
+    "title": "感谢您的信任",
+    "subtitle": "顾问将尽快与您联系。期间可先浏览我们的 AI 洞察。"
+  },
+  "blog": {
+    "title": "最新 AI 市场洞察",
+    "draftBadge": "草稿",
+    "publishedBadge": "已发布",
+    "readMore": "阅读文章",
+    "empty": "暂时没有文章，敬请期待。",
+    "categoryPrefix": "分类"
+  },
+  "blogCategories": {
+    "investment": "投资策略",
+    "lifestyle": "生活方式",
+    "legal": "法律与架构",
+    "market": "市场脉搏"
+  },
+  "admin": {
+    "loginTitle": "后台登录",
+    "username": "用户名",
+    "password": "密码",
+    "submit": "登录",
+    "postsTitle": "管理 AI 文章",
+    "status": "状态",
+    "published": "已发布",
+    "draft": "草稿",
+    "publish": "发布",
+    "unpublish": "撤下",
+    "delete": "删除",
+    "translate": "翻译",
+    "exportLeads": "导出线索 (CSV)",
+    "logout": "退出登录",
+    "translationSuccess": "翻译已保存。",
+    "translationStub": "未配置 LLM：已保存英文内容并附翻译提示。",
+    "error": "出现错误，请稍后重试。"
+  },
+  "footer": {
+    "address": "苏梅岛机构（示例），Ko Samui",
+    "phone": "+66-0000-0000",
+    "privacy": "隐私声明",
+    "terms": "条款与条件"
+  },
+  "common": {
+    "optional": "可选",
+    "loading": "加载中...",
+    "viewAll": "查看全部",
+    "close": "关闭",
+    "back": "返回"
+  }
+}

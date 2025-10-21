@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "title": "LeadImmo | Investir à Koh Samui",
+    "description": "Page d'atterrissage et blog assisté par IA pour générer des prospects acheteurs qualifiés à Koh Samui."
+  },
+  "navigation": {
+    "home": "Accueil",
+    "blog": "Analyses",
+    "guides": "Guides",
+    "admin": "Admin"
+  },
+  "languageSwitcher": {
+    "label": "Langue",
+    "trigger": "Changer de langue",
+    "close": "Fermer"
+  },
+  "hero": {
+    "eyebrow": "IA immobilière + experts locaux",
+    "title": "Débloquez les opportunités immobilières de Koh Samui",
+    "subtitle": "Sélection sur mesure, structuration financière et conseils d'installation appuyés par la donnée.",
+    "primaryCta": "Planifiez votre appel découverte",
+    "secondaryCta": "Télécharger la note d'investissement"
+  },
+  "leadForm": {
+    "title": "Parlez-nous de votre projet",
+    "description": "Complétez le formulaire et notre conseiller principal vous répond sous 24 heures.",
+    "firstName": "Prénom",
+    "email": "Email (optionnel)",
+    "phone": "Téléphone / WhatsApp",
+    "budget": "Budget",
+    "propertyType": "Type de bien",
+    "areas": "Secteurs recherchés",
+    "timing": "Horizon",
+    "callPreference": "Préférence de contact",
+    "timezone": "Fuseau horaire",
+    "message": "Autres informations utiles",
+    "consent": "J'accepte d'être contacté(e) et confirme avoir lu la notice de confidentialité.",
+    "submit": "Envoyer mon brief",
+    "success": "Merci ! Nous avons bien reçu votre demande."
+  },
+  "leadFormOptions": {
+    "budget": {
+      "under500k": "Moins de 500 k$",
+      "500kto1m": "500 k$ - 1 M$",
+      "1mto2m": "1 M$ - 2 M$",
+      "above2m": "Plus de 2 M$"
+    },
+    "propertyType": {
+      "villa": "Villa",
+      "apartment": "Appartement",
+      "hotel": "Hôtel boutique",
+      "land": "Terrain"
+    },
+    "timing": {
+      "soon": "Achat prévu sous 3 mois",
+      "mid": "Projet à 6 mois",
+      "later": "Exploration à plus long terme"
+    },
+    "callPreference": {
+      "phone": "Appel téléphonique",
+      "video": "Visio-conférence",
+      "inPerson": "Rencontre à Koh Samui"
+    }
+  },
+  "sections": {
+    "why": {
+      "title": "Pourquoi investir à Koh Samui avec LeadImmo",
+      "points": [
+        "Conseillers installés sur place avec plus de 15 ans d'expérience transactionnelle.",
+        "Modèles IA pour comparer rendement locatif et potentiel de revente.",
+        "Réseau de partenaires vérifiés : avocats, architectes, gestion locative."
+      ]
+    },
+    "proof": {
+      "title": "Des résultats reconnus par nos clients",
+      "metrics": [
+        {
+          "label": "Acheteurs qualifiés mis en relation avec des promoteurs en 2023",
+          "value": "142"
+        },
+        {
+          "label": "Taux d'occupation moyen obtenu pour les villas gérées",
+          "value": "78%"
+        },
+        {
+          "label": "Délai moyen avant première offre après mandat",
+          "value": "21 jours"
+        }
+      ]
+    },
+    "guides": {
+      "title": "Mini-guides : maîtrisez le marché",
+      "cta": "Lire l'article pilier"
+    }
+  },
+  "testimonials": {
+    "title": "Des investisseurs sereins",
+    "items": [
+      {
+        "quote": "LeadImmo a coordonné les aspects juridiques, bancaires et la rénovation de la villa afin que nous nous concentrions sur le lancement de notre marque locative.",
+        "author": "Marie & Thibault - Paris vers Samui"
+      },
+      {
+        "quote": "Leur synthèse IA hebdomadaire a comparé des dizaines d'annonces et identifié immédiatement la meilleure rentabilité.",
+        "author": "Jasmine K. - Singapour"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "items": [
+      {
+        "question": "Accompagnez-vous les acheteurs étrangers pour la création d'entreprise ?",
+        "answer": "Oui, nous coopérons avec des cabinets juridiques vérifiés pour structurer l'acquisition, y compris la constitution de société thaïlandaise si nécessaire."
+      },
+      {
+        "question": "Intervenez-vous uniquement sur des villas de luxe ?",
+        "answer": "Nos conseillers couvrent villas, hôtels boutique et foncier premium. Présentez-nous votre stratégie et nous mobilisons l'expert adapté."
+      },
+      {
+        "question": "En quoi le blog IA aide-t-il ma décision ?",
+        "answer": "Chaque article combine données de marché en temps réel, mots-clés ciblés et relecture humaine pour faire émerger rapidement les meilleures opportunités."
+      }
+    ]
+  },
+  "contact": {
+    "call": "Appeler maintenant",
+    "whatsapp": "Discuter sur WhatsApp"
+  },
+  "thankYou": {
+    "title": "Merci de votre confiance",
+    "subtitle": "Un conseiller vous contactera rapidement. En attendant, explorez nos analyses IA."
+  },
+  "blog": {
+    "title": "Dernières analyses propulsées par l'IA",
+    "draftBadge": "Brouillon",
+    "publishedBadge": "Publié",
+    "readMore": "Lire l'article",
+    "empty": "Aucun article pour le moment. Revenez bientôt.",
+    "categoryPrefix": "Catégorie"
+  },
+  "blogCategories": {
+    "investment": "Stratégie d'investissement",
+    "lifestyle": "Style de vie",
+    "legal": "Juridique & structuration",
+    "market": "Baromètre du marché"
+  },
+  "admin": {
+    "loginTitle": "Accès administrateur",
+    "username": "Identifiant",
+    "password": "Mot de passe",
+    "submit": "Se connecter",
+    "postsTitle": "Gérer les articles IA",
+    "status": "Statut",
+    "published": "Publié",
+    "draft": "Brouillon",
+    "publish": "Publier",
+    "unpublish": "Dépublier",
+    "delete": "Supprimer",
+    "translate": "Traduire",
+    "exportLeads": "Exporter les leads (CSV)",
+    "logout": "Se déconnecter",
+    "translationSuccess": "Traduction enregistrée.",
+    "translationStub": "LLM non configuré : texte anglais stocké avec une note de traduction.",
+    "error": "Une erreur est survenue, veuillez réessayer."
+  },
+  "footer": {
+    "address": "Agence Koh Samui (exemple), Ko Samui",
+    "phone": "+66-0000-0000",
+    "privacy": "Notice de confidentialité",
+    "terms": "Conditions générales"
+  },
+  "common": {
+    "optional": "Optionnel",
+    "loading": "Chargement...",
+    "viewAll": "Tout afficher",
+    "close": "Fermer",
+    "back": "Retour"
+  }
+}

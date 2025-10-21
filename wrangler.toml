@@ -1,0 +1,11 @@
+name = "samui-landing"
+compatibility_date = "2025-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+[triggers]
+crons = ["0 3 * * *"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "samui"
+database_id = "10380cee-10bb-456c-a447-a0d547d9bd05"

@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: only light;
+}
+
+html,
+body {
+  min-height: 100%;
+  background-color: #f7f8f9;
+  color: #0f172a;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.form-input,
+.form-select,
+.form-textarea {
+  @apply mt-1 w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-sm text-slate-800 shadow-sm focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/40;
+}
+
+.form-select {
+  @apply pr-10;
+}
+
+.form-textarea {
+  @apply resize-y;
+}

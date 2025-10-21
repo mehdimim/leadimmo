@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "title": "LeadImmo | Find your next property in Koh Samui",
+    "description": "Landing page and AI-assisted blog to create serious buyer leads for Koh Samui real estate."
+  },
+  "navigation": {
+    "home": "Home",
+    "blog": "Insights",
+    "guides": "Guides",
+    "admin": "Admin"
+  },
+  "languageSwitcher": {
+    "label": "Language",
+    "trigger": "Change language",
+    "close": "Close"
+  },
+  "hero": {
+    "eyebrow": "Real Estate AI + Local Experts",
+    "title": "Unlock Koh Samui real estate opportunities",
+    "subtitle": "Tailored property scouting, financing support and relocation insights backed by data.",
+    "primaryCta": "Plan your discovery call",
+    "secondaryCta": "Download the investment brief"
+  },
+  "leadForm": {
+    "title": "Tell us about your project",
+    "description": "Complete the form and our senior advisor replies within 24 hours.",
+    "firstName": "First name",
+    "email": "Email (optional)",
+    "phone": "Phone / WhatsApp",
+    "budget": "Budget",
+    "propertyType": "Property type",
+    "areas": "Preferred areas",
+    "timing": "Timeline",
+    "callPreference": "Call preference",
+    "timezone": "Time zone",
+    "message": "Anything else we should know?",
+    "consent": "I agree to be contacted and confirm I have read the privacy notice.",
+    "submit": "Send my brief",
+    "success": "Thanks! We received your request."
+  },
+  "leadFormOptions": {
+    "budget": {
+      "under500k": "Under $500k",
+      "500kto1m": "$500k - $1M",
+      "1mto2m": "$1M - $2M",
+      "above2m": "Above $2M"
+    },
+    "propertyType": {
+      "villa": "Villa",
+      "apartment": "Apartment",
+      "hotel": "Boutique hotel",
+      "land": "Land plot"
+    },
+    "timing": {
+      "soon": "Looking to buy in 0-3 months",
+      "mid": "Planning within 6 months",
+      "later": "Exploring options for later"
+    },
+    "callPreference": {
+      "phone": "Phone call",
+      "video": "Video call",
+      "inPerson": "Meet in Koh Samui"
+    }
+  },
+  "sections": {
+    "why": {
+      "title": "Why invest in Koh Samui with LeadImmo",
+      "points": [
+        "On-the-ground advisors with 15+ years of transaction experience.",
+        "AI market models to benchmark rental yields and resale potential.",
+        "Verified partner network: legal, architecture, property management."
+      ]
+    },
+    "proof": {
+      "title": "Results clients trust",
+      "metrics": [
+        {
+          "label": "Qualified buyers connected to developers in 2023",
+          "value": "142"
+        },
+        {
+          "label": "Average occupancy secured for managed villas",
+          "value": "78%"
+        },
+        {
+          "label": "Time to first offer after mandate",
+          "value": "21 days"
+        }
+      ]
+    },
+    "guides": {
+      "title": "Mini-guides: master the market",
+      "cta": "Read the pillar article"
+    }
+  },
+  "testimonials": {
+    "title": "Investors moving with confidence",
+    "items": [
+      {
+        "quote": "LeadImmo coordinated the legal, banking and villa renovation so we could focus on launching our rental brand.",
+        "author": "Marie & Thibault - Paris to Samui"
+      },
+      {
+        "quote": "Their weekly AI snapshot compared dozens of listings and highlighted the yield leader instantly.",
+        "author": "Jasmine K. - Singapore"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "question": "Can you assist foreign buyers with company setup?",
+        "answer": "Yes, we liaise with vetted law firms to structure the purchase, including Thai company incorporation when required."
+      },
+      {
+        "question": "Do you only work on luxury villas?",
+        "answer": "Our advisors cover villas, boutique hotels and prime land. Tell us about your strategy and we match the right expert."
+      },
+      {
+        "question": "How does the AI blog help my decision?",
+        "answer": "Each article combines live market data, curated keywords and human review to surface the best opportunities fast."
+      }
+    ]
+  },
+  "contact": {
+    "call": "Call now",
+    "whatsapp": "Chat on WhatsApp"
+  },
+  "thankYou": {
+    "title": "Thank you for your trust",
+    "subtitle": "An advisor will reach out shortly. Meanwhile explore our AI insights."
+  },
+  "blog": {
+    "title": "Latest AI-powered insights",
+    "draftBadge": "Draft",
+    "publishedBadge": "Published",
+    "readMore": "Read article",
+    "empty": "No articles yet. Check back soon.",
+    "categoryPrefix": "Category"
+  },
+  "blogCategories": {
+    "investment": "Investment strategy",
+    "lifestyle": "Lifestyle",
+    "legal": "Legal & structure",
+    "market": "Market pulse"
+  },
+  "admin": {
+    "loginTitle": "Admin access",
+    "username": "Username",
+    "password": "Password",
+    "submit": "Sign in",
+    "postsTitle": "Manage AI posts",
+    "status": "Status",
+    "published": "Published",
+    "draft": "Draft",
+    "publish": "Publish",
+    "unpublish": "Unpublish",
+    "delete": "Delete",
+    "translate": "Translate",
+    "exportLeads": "Export leads (CSV)",
+    "logout": "Sign out",
+    "translationSuccess": "Translation stored.",
+    "translationStub": "LLM not configured: stored English copy with translation note.",
+    "error": "Something went wrong, please retry."
+  },
+  "footer": {
+    "address": "Agency Koh Samui (placeholder), Ko Samui",
+    "phone": "+66-0000-0000",
+    "privacy": "Privacy notice",
+    "terms": "Terms & conditions"
+  },
+  "common": {
+    "optional": "Optional",
+    "loading": "Loading...",
+    "viewAll": "View all",
+    "close": "Close",
+    "back": "Back"
+  }
+}
