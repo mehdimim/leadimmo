@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 import { getDB } from '@/lib/db';
 import { getEnv, getEnvValue } from '@/lib/env';
 import { generatePostDraft } from '@/lib/jobs/generatePost';

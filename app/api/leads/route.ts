@@ -1,4 +1,6 @@
-﻿import { NextResponse } from 'next/server';
+export const runtime = 'edge';
+
+import { NextResponse } from 'next/server';
 
 import { getDB, consents, events, leads } from '@/lib/db';
 import { logger } from '@/lib/logger';
@@ -99,4 +101,3 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'Internal error' }, { status: 500 });
   }
 }
-

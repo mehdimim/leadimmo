@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 import CTAButton from '@/components/CTAButton';
 import Container from '@/components/Container';
 import { isLocale } from '@/lib/i18n';

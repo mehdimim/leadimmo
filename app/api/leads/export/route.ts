@@ -1,4 +1,6 @@
-﻿import { NextResponse } from 'next/server';
+export const runtime = 'edge';
+
+import { NextResponse } from 'next/server';
 
 import { isAdminAuthenticated } from '@/lib/auth';
 import { getDB, leads, consents } from '@/lib/db';

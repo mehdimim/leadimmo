@@ -1,6 +1,7 @@
 name = "samui-landing"
 compatibility_date = "2025-10-01"
 compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".vercel/output/static"
 
 [triggers]
 crons = ["0 3 * * *"]

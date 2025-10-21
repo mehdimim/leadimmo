@@ -1,4 +1,3 @@
-﻿import nodemailer from 'nodemailer';
 import { Resend } from 'resend';
 
 import { getEnvValue } from '@/lib/env';
@@ -20,43 +19,21 @@ export async function sendLeadNotification(lead: LeadPayload) {
   const fromEmail = getEnvValue('FROM_EMAIL') ?? 'noreply@example.com';
   const toEmail = getEnvValue('CONTACT_EMAIL') ?? fromEmail;
   const resendKey = getEnvValue('RESEND_API_KEY');
-  const smtpHost = getEnvValue('SMTP_HOST');
-  const smtpUser = getEnvValue('SMTP_USER');
-  const smtpPass = getEnvValue('SMTP_PASS');
-  const smtpPort = Number(getEnvValue('SMTP_PORT') ?? 587);
 
-  if (resendKey) {
-    const resend = new Resend(resendKey);
-    await resend.emails.send({
-      from: fromEmail,
-      to: toEmail,
-      subject: `New lead ${lead.firstName}`,
-      text: formatLeadText(lead)
-    });
-    return { delivered: true, provider: 'resend' as const };
+  if (!resendKey) {
+    console.warn('mail_provider_not_configured');
+    return { delivered: false, provider: null };
   }
 
-  if (smtpHost && smtpUser && smtpPass) {
-    const transporter = nodemailer.createTransport({
-      host: smtpHost,
-      port: smtpPort,
-      secure: smtpPort === 465,
-      auth: {
-        user: smtpUser,
-        pass: smtpPass
-      }
-    });
+  const resend = new Resend(resendKey);
+  await resend.emails.send({
+    from: fromEmail,
+    to: toEmail,
+    subject: `New lead ${lead.firstName}`,
+    text: formatLeadText(lead)
+  });
 
-    await transporter.sendMail({
-      from: fromEmail,
-      to: toEmail,
-      subject: `New lead ${lead.firstName}`,
-      text: formatLeadText(lead)
-    });
-    return { delivered: true, provider: 'smtp' as const };
-  }
-
-  return { delivered: false, provider: null };
+  return { delivered: true, provider: 'resend' as const };
 }
 
 function formatLeadText(lead: LeadPayload) {
