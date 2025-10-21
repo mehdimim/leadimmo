@@ -20,7 +20,6 @@ export default function SiteFooter({ locale }: SiteFooterProps) {
           <p>{tFooter('phone')}</p>
         </div>
         <div className="flex flex-col gap-2 text-sm text-slate-600 sm:text-right">
-          <Link href={`/${locale}/blog`}>{tNav('blog')}</Link>
           <Link href={`/${locale}#lead-form`}>{tNav('home')}</Link>
           <p>{tFooter('privacy')}</p>
           <p>{tFooter('terms')}</p>

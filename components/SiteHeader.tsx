@@ -23,9 +23,6 @@ export default function SiteHeader({ locale }: SiteHeaderProps) {
           <Link href={`/${locale}`} className="hover:text-primary">
             {tNav('home')}
           </Link>
-          <Link href={`/${locale}/blog`} className="hover:text-primary">
-            {tNav('blog')}
-          </Link>
           <Link href={`/${locale}#guides`} className="hover:text-primary">
             {tNav('guides')}
           </Link>

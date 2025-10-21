@@ -25,8 +25,8 @@ export default async function ThankYouPage({
       <h1 className="text-4xl font-semibold text-slate-900">{tThankYou('title')}</h1>
       <p className="mt-4 max-w-2xl text-lg text-slate-600">{tThankYou('subtitle')}</p>
       <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-        <CTAButton href={`/${locale}/blog`} variant="primary">
-          {tNav('blog')}
+        <CTAButton href={`/${locale}#guides`} variant="primary">
+          {tNav('guides')}
         </CTAButton>
         <CTAButton href={`/${locale}`} variant="secondary">
           {tHero('primaryCta')}

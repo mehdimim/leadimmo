@@ -35,7 +35,7 @@ export default async function LandingPage({
 
   const db = getDB();
 
-  const pillarRows = await db
+  const recentRows = await db
     .select({
       id: posts.id,
       slug: posts.slug,
@@ -43,6 +43,7 @@ export default async function LandingPage({
       excerpt: posts.excerpt,
       status: posts.status,
       category: posts.category,
+      pillar: posts.pillar,
       translationTitle: postTranslations.title,
       translationExcerpt: postTranslations.excerpt
     })
@@ -51,16 +52,17 @@ export default async function LandingPage({
       postTranslations,
       and(eq(postTranslations.postId, posts.id), eq(postTranslations.locale, locale))
     )
-    .where(and(eq(posts.pillar, true), eq(posts.status, 'published')))
+    .where(eq(posts.status, 'published'))
     .orderBy(desc(posts.createdAt))
-    .limit(5);
+    .limit(6);
 
-  const localizedPillars = pillarRows.map((row) => ({
+  const recentPosts = recentRows.map((row) => ({
     slug: row.slug,
     title: row.translationTitle ?? row.title,
     excerpt: row.translationExcerpt ?? row.excerpt,
     status: row.status,
-    category: row.category
+    category: row.category,
+    pillar: row.pillar
   }));
 
   const siteUrl = getEnvValue('NEXT_PUBLIC_SITE_URL') || 'https://www.leadimmo.example';
@@ -133,13 +135,13 @@ export default async function LandingPage({
       </Section>
 
       <Section title={messages.sections.guides.title} id="guides">
-        {localizedPillars.length > 0 ? (
+        {recentPosts.length > 0 ? (
           <div className="grid gap-6 md:grid-cols-2">
-            {localizedPillars.map((post) => (
+            {recentPosts.map((post) => (
               <PostCard
                 key={post.slug}
                 locale={locale}
-                slug={`c/${post.slug}`}
+                slug={post.pillar ? `c/${post.slug}` : post.slug}
                 title={post.title}
                 excerpt={post.excerpt}
                 status={post.status}
