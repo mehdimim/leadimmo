@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "LeadImmo | Invierte en Koh Samui",
-    "description": "Página de aterrizaje y blog asistido por IA para captar compradores cualificados en Koh Samui."
+    "description": "Landing page y blog asistido por IA para captar compradores cualificados en Koh Samui."
   },
   "navigation": {
     "home": "Inicio",
@@ -16,10 +16,17 @@
   },
   "hero": {
     "eyebrow": "IA inmobiliaria + expertos locales",
-    "title": "Activa oportunidades inmobiliarias en Koh Samui",
-    "subtitle": "Búsqueda personalizada de propiedades, apoyo financiero y asesoría de reubicación respaldados por datos.",
-    "primaryCta": "Agenda tu llamada exploratoria",
-    "secondaryCta": "Descargar informe de inversión"
+    "title": "Construye tu estrategia en Koh Samui con certeza",
+    "highlight": "De la prospección al cierre, orquestamos cada paso con datos y ejecución local.",
+    "subtitle": "Combinamos negociadores senior, una red de socios y modelos de IA para detectar las villas, boutique hotels y parcelas que encajan con tu mandato.",
+    "primaryCta": "Agenda una sesión estratégica",
+    "secondaryCta": "Explora los últimos insights",
+    "bullets": [
+      "Sourcing 360-grados: villas off-market, boutique hotels y parcelas listas para la due diligence.",
+      "Modelos financieros, previsiones de renta y verificaciones legales entregados en 72 horas.",
+      "Ecosistema validado: abogados, arquitectos, property managers y operadores hoteleros."
+    ],
+    "trustLabel": "Elegido por equipos de relocalización, desarrolladores y family offices en APAC"
   },
   "leadForm": {
     "title": "Cuéntanos tu proyecto",
@@ -49,12 +56,12 @@
       "villa": "Villa",
       "apartment": "Apartamento",
       "hotel": "Hotel boutique",
-      "land": "Terreno"
+      "land": "Parcela"
     },
     "timing": {
-      "soon": "Quiero comprar en 0-3 meses",
-      "mid": "Planificación a 6 meses",
-      "later": "Explorando para más adelante"
+      "soon": "Compra prevista en 0-3 meses",
+      "mid": "Proyecto a 6 meses",
+      "later": "Explorando a más largo plazo"
     },
     "callPreference": {
       "phone": "Llamada telefónica",
@@ -63,19 +70,62 @@
     }
   },
   "sections": {
-    "why": {
-      "title": "Por qué invertir en Koh Samui con LeadImmo",
-      "points": [
-        "Asesores en terreno con más de 15 años de experiencia en transacciones.",
-        "Modelos de mercado con IA para comparar rendimientos y potencial de reventa.",
-        "Red de socios verificados: legal, arquitectura y gestión de propiedades."
-      ]
+    "value": {
+      "eyebrow": "Lo que desbloqueamos",
+      "title": "Mucho más que una agencia - tu socio de crecimiento en la isla",
+      "description": "LeadImmo combina experiencia humana con análisis impulsado por IA para asegurar los activos correctos y lanzar operaciones rentables más rápido.",
+      "cards": [
+        {
+          "icon": "SI",
+          "title": "Inteligencia estratégica",
+          "description": "Simulaciones de cartera, benchmarks de rentabilidad y análisis de sensibilidad adaptados a tu mandato."
+        },
+        {
+          "icon": "NS",
+          "title": "Negociación y estructuración",
+          "description": "Asesores locales, socios legales y contactos bancarios para navegar sociedades tailandesas, leasehold o freehold."
+        },
+        {
+          "icon": "GE",
+          "title": "Ejecución go-to-market",
+          "description": "Branding, revenue management e integración con operadores para monetizar el activo desde el primer día."
+        }
+      ],
+      "cta": {
+        "label": "Ver un dossier de ejemplo",
+        "href": "/es/guides"
+      }
+    },
+    "workflow": {
+      "eyebrow": "Cómo trabajamos",
+      "title": "Precisión digital, ejecución local",
+      "description": "Un flujo transparente mantiene alineado a tu comité de inversión mientras nuestro equipo gestiona el terreno en Koh Samui.",
+      "steps": [
+        {
+          "title": "Discovery e ingestión de datos",
+          "description": "Capturamos tu mandato, perfil de riesgo y plazos. La IA analiza anuncios, datos de reservas y registros de tierra para filtrar solo los activos relevantes."
+        },
+        {
+          "title": "Sprint de viabilidad y estructuración",
+          "description": "Los partners de due diligence revisan ángulos legales, técnicos y financieros mientras negociamos términos y diseñamos la estructura óptima."
+        },
+        {
+          "title": "Lanzamiento y optimización",
+          "description": "Onboarding de operadores, playbooks de revenue y contenido multilingüe para alcanzar rápido tus objetivos."
+        }
+      ],
+      "cta": {
+        "label": "Descargar checklist de due diligence",
+        "href": "/es/guides"
+      }
     },
     "proof": {
-      "title": "Resultados en los que confían nuestros clientes",
+      "eyebrow": "Pruebas de impacto",
+      "title": "Resultados en los que confían los inversores",
+      "description": "Cada mandato se sigue con hitos medibles y reporting transparente.",
       "metrics": [
         {
-          "label": "Compradores cualificados conectados con promotores en 2023",
+          "label": "Compradores cualificados conectados con desarrolladores en 2023",
           "value": "142"
         },
         {
@@ -83,26 +133,92 @@
           "value": "78%"
         },
         {
-          "label": "Tiempo hasta la primera oferta tras el mandato",
+          "label": "Tiempo medio hasta la primera oferta tras el mandato",
           "value": "21 días"
         }
       ]
     },
+    "references": {
+      "eyebrow": "Mandatos recientes",
+      "title": "Casos reales de inversores en Koh Samui",
+      "description": "Cada proyecto une sourcing off-market y el partner adecuado para ejecutar el plan.",
+      "items": [
+        {
+          "title": "Repositionamiento de hotel boutique",
+          "location": "Colina de Choeng Mon",
+          "metric": "+24% de ocupación en 6 meses",
+          "description": "LeadImmo obtuvo el activo, estructuró el leasehold y sumó un operador wellness para relanzar la marca."
+        },
+        {
+          "title": "Cluster de villas build-to-rent",
+          "location": "Calle tranquila de Bophut",
+          "metric": "12 villas, ADR 18 900 ฿",
+          "description": "Gestionamos adquisición de suelo, permisos y partnership propietario-operador para un cluster con marca."
+        },
+        {
+          "title": "Land banking family office",
+          "location": "Franja marina Bang Rak",
+          "metric": "Plusvalía +18% en la reventa",
+          "description": "Con comparables y socios legales negociamos un acuerdo por fases antes de la renovación de la marina."
+        }
+      ],
+      "cta": {
+        "label": "Solicita el deck completo de casos",
+        "href": "/es#lead-form"
+      }
+    },
+    "stack": {
+      "eyebrow": "Impulsados por datos",
+      "title": "Stack de inteligencia diseñada para Samui",
+      "description": "Combinamos modelos propios y partners de confianza para descubrir señales off-market.",
+      "items": [
+        {
+          "title": "Market pulse",
+          "description": "Llegadas turísticas, ritmo de reservas, ADR y comparables de reventa actualizados semanalmente."
+        },
+        {
+          "title": "Estudio de contenido IA",
+          "description": "Guías multilingües, clusters SEO y formatos sociales producidos en horas, no en semanas."
+        },
+        {
+          "title": "Red de partners",
+          "description": "Firmas legales, arquitectos, constructores y operadores hoteleros validados en proyectos entregados."
+        }
+      ]
+    },
     "guides": {
-      "title": "Mini guías: domina el mercado",
+      "title": "Guías IA: decide más rápido",
+      "description": "Cada semana publicamos briefings que combinan datos y conocimiento local.",
       "cta": "Leer el artículo pilar"
+    },
+    "cta": {
+      "eyebrow": "Próximo paso",
+      "title": "¿Listo para construir tu roadmap en Koh Samui?",
+      "description": "Comparte objetivos de rentabilidad, plazos y plan de capital. Reunimos el equipo y la inteligencia para adelantarte.",
+      "primaryCta": "Reservar sesión privada",
+      "secondaryCta": "Hablar con un asesor"
     }
   },
   "testimonials": {
     "title": "Inversores que avanzan con confianza",
     "items": [
       {
-        "quote": "LeadImmo coordinó lo legal, la banca y la reforma de la villa para que pudiéramos enfocarnos en lanzar nuestra marca de alquiler.",
-        "author": "Marie y Thibault - De París a Samui"
+        "quote": "LeadImmo coordinó la parte legal, bancaria y la reforma de la villa para que nos centráramos en lanzar nuestra marca de alquiler vacacional.",
+        "author": "Marie & Thibault",
+        "location": "París a Samui",
+        "result": "ROI villa +19% primer año"
       },
       {
-        "quote": "Su resumen semanal con IA comparó decenas de listados e identificó al instante la mejor rentabilidad.",
-        "author": "Jasmine K. - Singapur"
+        "quote": "Su snapshot semanal de IA comparó decenas de listados e identificó al instante la opción de mayor rentabilidad.",
+        "author": "Jasmine K.",
+        "location": "Singapur",
+        "result": "Oferta aceptada en 14 días"
+      },
+      {
+        "quote": "El equipo sostuvo las negociaciones con el promotor y mantuvo a nuestro family office informado con reporting estructurado.",
+        "author": "Daniel R.",
+        "location": "Family office Hong Kong",
+        "result": "Land bank +18% de plusvalía"
       }
     ]
   },
@@ -110,29 +226,29 @@
     "title": "Preguntas frecuentes",
     "items": [
       {
-        "question": "¿Ayudan a compradores extranjeros con la creación de empresas?",
-        "answer": "Sí, trabajamos con despachos de abogados verificados para estructurar la compra, incluida la constitución de sociedades tailandesas cuando es necesario."
+        "question": "¿Ayudan a compradores extranjeros con la creación de empresa?",
+        "answer": "Sí. Trabajamos con despachos legales verificados para estructurar la compra, incluida la constitución de sociedad tailandesa cuando es necesario."
       },
       {
-        "question": "¿Solo trabajan con villas de lujo?",
+        "question": "¿Solo trabajáis con villas de lujo?",
         "answer": "Nuestros asesores cubren villas, hoteles boutique y suelo prime. Cuéntanos tu estrategia y asignamos al experto adecuado."
       },
       {
-        "question": "¿Cómo aporta el blog con IA a mi decisión?",
-        "answer": "Cada artículo combina datos de mercado en tiempo real, palabras clave seleccionadas y revisión humana para destapar rápidamente las mejores oportunidades."
+        "question": "¿Cómo ayuda el blog de IA a mi decisión?",
+        "answer": "Cada artículo combina datos de mercado en tiempo real, clusters de keywords y revisión humana para destacar rápidamente las mejores oportunidades."
       }
     ]
   },
   "contact": {
     "call": "Llamar ahora",
-    "whatsapp": "Chatear por WhatsApp"
+    "whatsapp": "Hablar por WhatsApp"
   },
   "thankYou": {
-    "title": "Gracias por tu confianza",
-    "subtitle": "Un asesor se pondrá en contacto contigo muy pronto. Mientras tanto, explora nuestros insights con IA."
+    "title": "Gracias por confiar en nosotros",
+    "subtitle": "Un asesor se pondrá en contacto muy pronto. Mientras tanto, explora nuestras ideas impulsadas por IA."
   },
   "blog": {
-    "title": "Últimos insights impulsados por IA",
+    "title": "Insights más recientes impulsados por IA",
     "draftBadge": "Borrador",
     "publishedBadge": "Publicado",
     "readMore": "Leer artículo",
@@ -142,7 +258,7 @@
   "blogCategories": {
     "investment": "Estrategia de inversión",
     "lifestyle": "Estilo de vida",
-    "legal": "Legal y estructura",
+    "legal": "Legal y estructuración",
     "market": "Pulso del mercado"
   },
   "admin": {
@@ -155,14 +271,14 @@
     "published": "Publicado",
     "draft": "Borrador",
     "publish": "Publicar",
-    "unpublish": "Retirar",
+    "unpublish": "Despublicar",
     "delete": "Eliminar",
     "translate": "Traducir",
     "exportLeads": "Exportar leads (CSV)",
     "logout": "Cerrar sesión",
     "translationSuccess": "Traducción guardada.",
-    "translationStub": "LLM no configurado: se guardó el texto en inglés con nota de traducción.",
-    "error": "Ha ocurrido un error, inténtalo de nuevo."
+    "translationStub": "LLM no configurado: texto en inglés almacenado con nota de traducción.",
+    "error": "Algo salió mal, inténtalo de nuevo."
   },
   "footer": {
     "address": "Agencia Koh Samui (ejemplo), Ko Samui",
@@ -175,6 +291,6 @@
     "loading": "Cargando...",
     "viewAll": "Ver todo",
     "close": "Cerrar",
-    "back": "Volver"
+    "back": "Atrás"
   }
 }

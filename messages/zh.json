@@ -1,180 +1,296 @@
 {
   "meta": {
-    "title": "LeadImmo | 投资苏梅岛",
-    "description": "登陆页与 AI 驱动的博客，帮助获取苏梅岛房地产的高意向买家线索。"
+    "title": "LeadImmo | Find your next property in Koh Samui",
+    "description": "Landing page and AI-assisted blog to create serious buyer leads for Koh Samui real estate."
   },
   "navigation": {
-    "home": "首页",
-    "blog": "洞察",
-    "guides": "指南",
-    "admin": "后台"
+    "home": "Home",
+    "blog": "Insights",
+    "guides": "Guides",
+    "admin": "Admin"
   },
   "languageSwitcher": {
-    "label": "语言",
-    "trigger": "切换语言",
-    "close": "关闭"
+    "label": "Language",
+    "trigger": "Change language",
+    "close": "Close"
   },
   "hero": {
-    "eyebrow": "房地产 AI + 本地专家",
-    "title": "解锁苏梅岛房地产机会",
-    "subtitle": "数据支撑的个性化选址、融资支持与落地建议。",
-    "primaryCta": "预约咨询电话",
-    "secondaryCta": "下载投资简报"
+    "eyebrow": "LeadImmo AI + Island Experts",
+    "title": "Build your Samui investment strategy with certainty",
+    "highlight": "From scouting to closing, we orchestrate every move with data and local execution.",
+    "subtitle": "We blend senior negotiators, partner networks and AI models to uncover the villas, boutique hotels and land assets that match your mandate.",
+    "primaryCta": "Schedule a strategy session",
+    "secondaryCta": "Explore the latest insights",
+    "bullets": [
+      "360-degree sourcing: off-market villas, boutique hotels and prime land plots ready for due diligence.",
+      "Financial underwriting, rental forecasts and legal checks delivered within 72 hours.",
+      "Trusted ecosystem: legal, architecture, property management and hospitality operators."
+    ],
+    "trustLabel": "Trusted by relocation teams, developers and family offices across APAC"
   },
   "leadForm": {
-    "title": "告诉我们您的计划",
-    "description": "填写表单，我们的资深顾问将在 24 小时内回复。",
-    "firstName": "姓名",
-    "email": "邮箱（选填）",
-    "phone": "电话 / WhatsApp",
-    "budget": "预算",
-    "propertyType": "物业类型",
-    "areas": "首选区域",
-    "timing": "时间规划",
-    "callPreference": "沟通方式偏好",
-    "timezone": "时区",
-    "message": "还有哪些信息需要了解？",
-    "consent": "我同意被联系，并确认已阅读隐私声明。",
-    "submit": "提交需求",
-    "success": "感谢信任！我们已收到您的请求。"
+    "title": "Tell us about your project",
+    "description": "Complete the form and our senior advisor replies within 24 hours.",
+    "firstName": "First name",
+    "email": "Email (optional)",
+    "phone": "Phone / WhatsApp",
+    "budget": "Budget",
+    "propertyType": "Property type",
+    "areas": "Preferred areas",
+    "timing": "Timeline",
+    "callPreference": "Call preference",
+    "timezone": "Time zone",
+    "message": "Anything else we should know?",
+    "consent": "I agree to be contacted and confirm I have read the privacy notice.",
+    "submit": "Send my brief",
+    "success": "Thanks! We received your request."
   },
   "leadFormOptions": {
     "budget": {
-      "under500k": "低于 50 万美元",
-      "500kto1m": "50 万 - 100 万美元",
-      "1mto2m": "100 万 - 200 万美元",
-      "above2m": "高于 200 万美元"
+      "under500k": "Under $500k",
+      "500kto1m": "$500k - $1M",
+      "1mto2m": "$1M - $2M",
+      "above2m": "Above $2M"
     },
     "propertyType": {
-      "villa": "别墅",
-      "apartment": "公寓",
-      "hotel": "精品酒店",
-      "land": "土地"
+      "villa": "Villa",
+      "apartment": "Apartment",
+      "hotel": "Boutique hotel",
+      "land": "Land plot"
     },
     "timing": {
-      "soon": "计划 0-3 个月内购置",
-      "mid": "计划 6 个月内购置",
-      "later": "长期评估阶段"
+      "soon": "Looking to buy in 0-3 months",
+      "mid": "Planning within 6 months",
+      "later": "Exploring options for later"
     },
     "callPreference": {
-      "phone": "电话沟通",
-      "video": "视频会议",
-      "inPerson": "苏梅岛线下面谈"
+      "phone": "Phone call",
+      "video": "Video call",
+      "inPerson": "Meet in Koh Samui"
     }
   },
   "sections": {
-    "why": {
-      "title": "为何选择 LeadImmo 投资苏梅岛",
-      "points": [
-        "驻地顾问拥有 15 年以上交易经验。",
-        "AI 市场模型评估租金收益与转售潜力。",
-        "严选合作伙伴网络：法律、设计及物业管理。"
-      ]
+    "value": {
+      "eyebrow": "What we unlock",
+      "title": "More than a brokerage - your on-island growth partner",
+      "description": "LeadImmo blends human expertise and AI-backed analysis to secure the right assets and launch profitable operations faster.",
+      "cards": [
+        {
+          "icon": "SI",
+          "title": "Strategic intelligence",
+          "description": "Portfolio simulations, yield benchmarking and sensitivity analysis tailored to your acquisition brief."
+        },
+        {
+          "icon": "NS",
+          "title": "Negotiation and structuring",
+          "description": "On-the-ground advisors, legal partners and banking contacts to navigate Thai company, leasehold or freehold structures."
+        },
+        {
+          "icon": "GE",
+          "title": "Go-to-market execution",
+          "description": "Branding, revenue management and operator introductions to monetise the asset from day one."
+        }
+      ],
+      "cta": {
+        "label": "See an example dossier",
+        "href": "/zh/guides"
+      }
+    },
+    "workflow": {
+      "eyebrow": "How it works",
+      "title": "Digitally precise, locally executed",
+      "description": "A transparent workflow keeps your investment committee aligned while our team handles the heavy lifting on Koh Samui.",
+      "steps": [
+        {
+          "title": "Discovery and data ingestion",
+          "description": "We capture your mandate, risk envelope and timelines. AI scrapes listings, booking data and land records to shortlist only relevant assets."
+        },
+        {
+          "title": "Feasibility and structuring sprint",
+          "description": "Due diligence partners evaluate legal, technical and financial angles while we negotiate terms and assemble the optimal holding structure."
+        },
+        {
+          "title": "Launch and optimisation",
+          "description": "Operator onboarding, revenue playbooks and multilingual content ensure your villa, hotel or development hits revenue targets quickly."
+        }
+      ],
+      "cta": {
+        "label": "Download the due diligence checklist",
+        "href": "/zh/guides"
+      }
     },
     "proof": {
-      "title": "客户验证的成果",
+      "eyebrow": "Proof of impact",
+      "title": "Outcomes investors rely on",
+      "description": "Every engagement is tracked with measurable milestones and transparent reporting.",
       "metrics": [
         {
-          "label": "2023 年为开发商导入的合格买家",
+          "label": "Qualified buyers connected to developers in 2023",
           "value": "142"
         },
         {
-          "label": "托管别墅实现的平均入住率",
+          "label": "Average occupancy secured for managed villas",
           "value": "78%"
         },
         {
-          "label": "获得首个报价的平均用时",
-          "value": "21 天"
+          "label": "Time to first offer after mandate",
+          "value": "21 days"
+        }
+      ]
+    },
+    "references": {
+      "eyebrow": "Recent mandates",
+      "title": "Case studies from Koh Samui investors",
+      "description": "Each project combines off-market sourcing with the operator or partner capable of delivering the plan.",
+      "items": [
+        {
+          "title": "Boutique hotel repositioning",
+          "location": "Choeng Mon hillside",
+          "metric": "+24% occupancy in 6 months",
+          "description": "LeadImmo sourced the asset, structured the leasehold and onboarded a wellness operator to refresh the brand."
+        },
+        {
+          "title": "Luxury villa cluster build-to-rent",
+          "location": "Bophut quiet lane",
+          "metric": "12 villas, ADR 18,900 THB",
+          "description": "We managed land acquisition, permits and owner-operator partnership for a branded villa cluster."
+        },
+        {
+          "title": "Family office land banking",
+          "location": "Bang Rak marina strip",
+          "metric": "Yield +18% on resale",
+          "description": "Using our transaction comps and legal partners we negotiated a phased deal ahead of marina upgrades."
+        }
+      ],
+      "cta": {
+        "label": "Request the full case study deck",
+        "href": "/zh#lead-form"
+      }
+    },
+    "stack": {
+      "eyebrow": "Augmented by data",
+      "title": "An intelligence stack built for Samui",
+      "description": "We combine proprietary models with trusted data partners to unlock off-market signals.",
+      "items": [
+        {
+          "title": "Market pulse",
+          "description": "Tourism arrivals, booking pace, ADR benchmarks and resale comparables refreshed weekly."
+        },
+        {
+          "title": "AI content studio",
+          "description": "Multilingual guides, search clusters and social snippets seeded in hours, not weeks."
+        },
+        {
+          "title": "Partner network",
+          "description": "Law firms, architects, builders and hospitality operators vetted on delivered projects."
         }
       ]
     },
     "guides": {
-      "title": "迷你指南：快速掌握市场",
-      "cta": "阅读核心文章"
+      "title": "AI guides: make faster investment calls",
+      "description": "Every week we publish new briefings that blend data-backed insights with local intelligence.",
+      "cta": "Read the pillar article"
+    },
+    "cta": {
+      "eyebrow": "Next step",
+      "title": "Ready to build your Koh Samui roadmap?",
+      "description": "Tell us about your target yields, timing and capital plan. We assemble the team and intelligence you need to move first.",
+      "primaryCta": "Book a private session",
+      "secondaryCta": "Chat with an advisor"
     }
   },
   "testimonials": {
-    "title": "让投资更安心",
+    "title": "Investors moving with confidence",
     "items": [
       {
-        "quote": "LeadImmo 协调了法律、融资以及别墅翻修，让我们专注于打造租赁品牌。",
-        "author": "Marie 与 Thibault - 巴黎到苏梅岛"
+        "quote": "LeadImmo coordinated the legal, banking and villa renovation so we could focus on launching our rental brand.",
+        "author": "Marie and Thibault",
+        "location": "Paris to Samui",
+        "result": "Villa ROI plus nineteen percent year one"
       },
       {
-        "quote": "他们的每周 AI 摘要对比了数十个房源，瞬间锁定收益最佳的选择。",
-        "author": "Jasmine K. - 新加坡"
+        "quote": "Their weekly AI snapshot compared dozens of listings and highlighted the yield leader instantly.",
+        "author": "Jasmine K.",
+        "location": "Singapore",
+        "result": "Offer accepted in fourteen days"
+      },
+      {
+        "quote": "The team upheld developer negotiations and kept our family office informed with structured reporting.",
+        "author": "Daniel R.",
+        "location": "Hong Kong family office",
+        "result": "Land bank exit plus eighteen percent"
       }
     ]
   },
   "faq": {
-    "title": "常见问题",
+    "title": "Frequently asked questions",
     "items": [
       {
-        "question": "你们能协助外国买家设立公司吗？",
-        "answer": "可以，我们与可信赖的律师事务所合作，为您设计交易结构，包括必要时成立泰国公司。"
+        "question": "Can you assist foreign buyers with company setup?",
+        "answer": "Yes, we liaise with vetted law firms to structure the purchase, including Thai company incorporation when required."
       },
       {
-        "question": "是否只服务豪华别墅？",
-        "answer": "我们的顾问覆盖别墅、精品酒店与核心地段土地。告诉我们您的策略，我们会匹配合适专家。"
+        "question": "Do you only work on luxury villas?",
+        "answer": "Our advisors cover villas, boutique hotels and prime land. Tell us about your strategy and we match the right expert."
       },
       {
-        "question": "AI 博客对决策有什么帮助？",
-        "answer": "每篇文章融合实时市场数据、精选关键词与人工审核，快速呈现最佳投资机会。"
+        "question": "How does the AI blog help my decision?",
+        "answer": "Each article combines live market data, curated keywords and human review to surface the best opportunities fast."
       }
     ]
   },
   "contact": {
-    "call": "立即来电",
-    "whatsapp": "WhatsApp 咨询"
+    "call": "Call now",
+    "whatsapp": "Chat on WhatsApp"
   },
   "thankYou": {
-    "title": "感谢您的信任",
-    "subtitle": "顾问将尽快与您联系。期间可先浏览我们的 AI 洞察。"
+    "title": "Thank you for your trust",
+    "subtitle": "An advisor will reach out shortly. Meanwhile explore our AI insights."
   },
   "blog": {
-    "title": "最新 AI 市场洞察",
-    "draftBadge": "草稿",
-    "publishedBadge": "已发布",
-    "readMore": "阅读文章",
-    "empty": "暂时没有文章，敬请期待。",
-    "categoryPrefix": "分类"
+    "title": "Latest AI-powered insights",
+    "draftBadge": "Draft",
+    "publishedBadge": "Published",
+    "readMore": "Read article",
+    "empty": "No articles yet. Check back soon.",
+    "categoryPrefix": "Category"
   },
   "blogCategories": {
-    "investment": "投资策略",
-    "lifestyle": "生活方式",
-    "legal": "法律与架构",
-    "market": "市场脉搏"
+    "investment": "Investment strategy",
+    "lifestyle": "Lifestyle",
+    "legal": "Legal and structure",
+    "market": "Market pulse"
   },
   "admin": {
-    "loginTitle": "后台登录",
-    "username": "用户名",
-    "password": "密码",
-    "submit": "登录",
-    "postsTitle": "管理 AI 文章",
-    "status": "状态",
-    "published": "已发布",
-    "draft": "草稿",
-    "publish": "发布",
-    "unpublish": "撤下",
-    "delete": "删除",
-    "translate": "翻译",
-    "exportLeads": "导出线索 (CSV)",
-    "logout": "退出登录",
-    "translationSuccess": "翻译已保存。",
-    "translationStub": "未配置 LLM：已保存英文内容并附翻译提示。",
-    "error": "出现错误，请稍后重试。"
+    "loginTitle": "Admin access",
+    "username": "Username",
+    "password": "Password",
+    "submit": "Sign in",
+    "postsTitle": "Manage AI posts",
+    "status": "Status",
+    "published": "Published",
+    "draft": "Draft",
+    "publish": "Publish",
+    "unpublish": "Unpublish",
+    "delete": "Delete",
+    "translate": "Translate",
+    "exportLeads": "Export leads (CSV)",
+    "logout": "Sign out",
+    "translationSuccess": "Translation stored.",
+    "translationStub": "LLM not configured: stored English copy with translation note.",
+    "error": "Something went wrong, please retry."
   },
   "footer": {
-    "address": "苏梅岛机构（示例），Ko Samui",
+    "address": "Agency Koh Samui (placeholder), Ko Samui",
     "phone": "+66-0000-0000",
-    "privacy": "隐私声明",
-    "terms": "条款与条件"
+    "privacy": "Privacy notice",
+    "terms": "Terms and conditions"
   },
   "common": {
-    "optional": "可选",
-    "loading": "加载中...",
-    "viewAll": "查看全部",
-    "close": "关闭",
-    "back": "返回"
+    "optional": "Optional",
+    "loading": "Loading...",
+    "viewAll": "View all",
+    "close": "Close",
+    "back": "Back"
   }
 }

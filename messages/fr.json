@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "LeadImmo | Investir à Koh Samui",
-    "description": "Page d'atterrissage et blog assisté par IA pour générer des prospects acheteurs qualifiés à Koh Samui."
+    "description": "Landing page et blog assistés par IA pour générer des prospects acheteurs qualifiés à Koh Samui."
   },
   "navigation": {
     "home": "Accueil",
@@ -16,10 +16,17 @@
   },
   "hero": {
     "eyebrow": "IA immobilière + experts locaux",
-    "title": "Débloquez les opportunités immobilières de Koh Samui",
-    "subtitle": "Sélection sur mesure, structuration financière et conseils d'installation appuyés par la donnée.",
-    "primaryCta": "Planifiez votre appel découverte",
-    "secondaryCta": "Télécharger la note d'investissement"
+    "title": "Construisez votre stratégie Samui en toute certitude",
+    "highlight": "De la prospection à la signature, nous orchestrons chaque étape avec données et exécution locale.",
+    "subtitle": "Nous combinons négociateurs seniors, réseau de partenaires et modèles IA pour identifier les villas, boutique-hôtels et terrains adaptés à votre mandat.",
+    "primaryCta": "Planifier une session stratégique",
+    "secondaryCta": "Explorer nos insights",
+    "bullets": [
+      "Sourcing 360-degres : villas off-market, boutique-hôtels et terrains prêts pour la due diligence.",
+      "Modèles financiers, prévisions locatives et vérifications juridiques livrés en 72 heures.",
+      "Écosystème validé : avocats, architectes, gestionnaires et opérateurs hôteliers."
+    ],
+    "trustLabel": "Plébiscité par des équipes de relocalisation, développeurs et family offices en Asie-Pacifique"
   },
   "leadForm": {
     "title": "Parlez-nous de votre projet",
@@ -63,16 +70,59 @@
     }
   },
   "sections": {
-    "why": {
-      "title": "Pourquoi investir à Koh Samui avec LeadImmo",
-      "points": [
-        "Conseillers installés sur place avec plus de 15 ans d'expérience transactionnelle.",
-        "Modèles IA pour comparer rendement locatif et potentiel de revente.",
-        "Réseau de partenaires vérifiés : avocats, architectes, gestion locative."
-      ]
+    "value": {
+      "eyebrow": "Ce que nous débloquons",
+      "title": "Bien plus qu'un courtier - votre partenaire croissance sur l'île",
+      "description": "LeadImmo allie expertise humaine et analyse IA pour sécuriser les bons actifs et lancer des opérations rentables plus vite.",
+      "cards": [
+        {
+          "icon": "SI",
+          "title": "Intelligence stratégique",
+          "description": "Simulations de portefeuille, benchmarks de rendement et analyses de sensibilité adaptés à votre cahier des charges."
+        },
+        {
+          "icon": "NS",
+          "title": "Négociation et structuration",
+          "description": "Conseillers terrain, partenaires juridiques et contacts bancaires pour naviguer entre société thaïlandaise, leasehold ou freehold."
+        },
+        {
+          "icon": "GE",
+          "title": "Exécution go-to-market",
+          "description": "Branding, revenue management et opérateurs afin de monétiser l'actif dès le premier jour."
+        }
+      ],
+      "cta": {
+        "label": "Voir un dossier exemple",
+        "href": "/fr/guides"
+      }
+    },
+    "workflow": {
+      "eyebrow": "Méthodologie",
+      "title": "Précision digitale, exécution locale",
+      "description": "Un workflow transparent garde votre comité d'investissement aligné pendant que notre équipe opère à Koh Samui.",
+      "steps": [
+        {
+          "title": "Cadrage et ingestion des données",
+          "description": "Nous clarifions votre mandat, votre profil de risque et votre calendrier. L'IA agrège annonces, données de réservation et cadastre pour ne retenir que les actifs pertinents."
+        },
+        {
+          "title": "Sprint faisabilité et structuration",
+          "description": "Les partenaires due diligence évaluent les aspects juridiques, techniques et financiers tandis que nous négocions les termes et bâtissons la structure optimale."
+        },
+        {
+          "title": "Lancement et optimisation",
+          "description": "Onboarding opérateur, playbooks de revenus et contenus multilingues pour atteindre rapidement vos objectifs locatifs."
+        }
+      ],
+      "cta": {
+        "label": "Télécharger la checklist due diligence",
+        "href": "/fr/guides"
+      }
     },
     "proof": {
-      "title": "Des résultats reconnus par nos clients",
+      "eyebrow": "Preuves d'impact",
+      "title": "Des résultats sur lesquels les investisseurs comptent",
+      "description": "Chaque mission est suivie grâce à des jalons mesurables et un reporting transparent.",
       "metrics": [
         {
           "label": "Acheteurs qualifiés mis en relation avec des promoteurs en 2023",
@@ -88,9 +138,65 @@
         }
       ]
     },
+    "references": {
+      "eyebrow": "Mandats récents",
+      "title": "Cas concrets d'investisseurs à Koh Samui",
+      "description": "Chaque projet associe sourcing off-market et opérateur ou partenaire capable de livrer le plan.",
+      "items": [
+        {
+          "title": "Repositionnement hôtel boutique",
+          "location": "Colline de Choeng Mon",
+          "metric": "+24% d'occupation en 6 mois",
+          "description": "LeadImmo a sourcé l'actif, structuré le leasehold et embarqué un opérateur bien-être pour relancer la marque."
+        },
+        {
+          "title": "Cluster de villas build-to-rent",
+          "location": "Voie calme de Bophut",
+          "metric": "12 villas, ADR 18 900 ฿",
+          "description": "Gestion de l'acquisition foncière, des permis et du partenariat propriétaire-opérateur pour un cluster brandé."
+        },
+        {
+          "title": "Land banking family office",
+          "location": "Bande marina Bang Rak",
+          "metric": "Plus-value +18% à la revente",
+          "description": "Grâce à nos comparables et partenaires juridiques, nous avons négocié un deal phasé avant les travaux de marina."
+        }
+      ],
+      "cta": {
+        "label": "Demander le deck complet de cas clients",
+        "href": "/fr#lead-form"
+      }
+    },
+    "stack": {
+      "eyebrow": "Propulsé par les données",
+      "title": "Une stack d'intelligence dédiée à Samui",
+      "description": "Nous combinons modèles propriétaires et partenaires de confiance pour révéler les signaux off-market.",
+      "items": [
+        {
+          "title": "Market pulse",
+          "description": "Arrivées touristiques, rythme de réservation, ADR et comparables de revente actualisés chaque semaine."
+        },
+        {
+          "title": "Studio contenu IA",
+          "description": "Guides multilingues, clusters SEO et formats sociaux produits en quelques heures, pas en semaines."
+        },
+        {
+          "title": "Réseau de partenaires",
+          "description": "Cabinets d'avocats, architectes, constructeurs et opérateurs hôteliers validés sur des projets livrés."
+        }
+      ]
+    },
     "guides": {
-      "title": "Mini-guides : maîtrisez le marché",
+      "title": "Guides IA : décider plus vite",
+      "description": "Chaque semaine nous publions des briefs mêlant données et intelligence locale.",
       "cta": "Lire l'article pilier"
+    },
+    "cta": {
+      "eyebrow": "Prochaine étape",
+      "title": "Prêt à construire votre feuille de route Koh Samui ?",
+      "description": "Partagez vos rendements cibles, vos délais et votre plan de financement. Nous réunissons l'équipe et l'intelligence pour passer devant.",
+      "primaryCta": "Réserver une session privée",
+      "secondaryCta": "Discuter avec un conseiller"
     }
   },
   "testimonials": {
@@ -98,11 +204,21 @@
     "items": [
       {
         "quote": "LeadImmo a coordonné les aspects juridiques, bancaires et la rénovation de la villa afin que nous nous concentrions sur le lancement de notre marque locative.",
-        "author": "Marie & Thibault - Paris vers Samui"
+        "author": "Marie & Thibault",
+        "location": "Paris vers Samui",
+        "result": "ROI villa +19% la première année"
       },
       {
-        "quote": "Leur synthèse IA hebdomadaire a comparé des dizaines d'annonces et identifié immédiatement la meilleure rentabilité.",
-        "author": "Jasmine K. - Singapour"
+        "quote": "Leur snapshot IA hebdomadaire a comparé des dizaines d'annonces et identifié instantanément la meilleure rentabilité.",
+        "author": "Jasmine K.",
+        "location": "Singapour",
+        "result": "Offre acceptée en 14 jours"
+      },
+      {
+        "quote": "L'équipe a piloté les négociations promoteur et maintenu notre family office informé avec un reporting structuré.",
+        "author": "Daniel R.",
+        "location": "Family office Hong Kong",
+        "result": "Plus-value foncière +18%"
       }
     ]
   },
@@ -142,7 +258,7 @@
   "blogCategories": {
     "investment": "Stratégie d'investissement",
     "lifestyle": "Style de vie",
-    "legal": "Juridique & structuration",
+    "legal": "Juridique et structuration",
     "market": "Baromètre du marché"
   },
   "admin": {
